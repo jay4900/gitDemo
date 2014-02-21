@@ -19,6 +19,7 @@
 		028C3A4F18B6EC42007F48DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028C3A3718B6EC42007F48DA /* UIKit.framework */; };
 		028C3A5718B6EC42007F48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 028C3A5518B6EC42007F48DA /* InfoPlist.strings */; };
 		028C3A5918B6EC42007F48DA /* gitDemo1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 028C3A5818B6EC42007F48DA /* gitDemo1Tests.m */; };
+		028C3A6418B6EE0F007F48DA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 028C3A6318B6EE0F007F48DA /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		028C3A5418B6EC42007F48DA /* gitDemo1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitDemo1Tests-Info.plist"; sourceTree = "<group>"; };
 		028C3A5618B6EC42007F48DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		028C3A5818B6EC42007F48DA /* gitDemo1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitDemo1Tests.m; sourceTree = "<group>"; };
+		028C3A6218B6EE0F007F48DA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		028C3A6318B6EE0F007F48DA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				028C3A4218B6EC42007F48DA /* AppDelegate.h */,
 				028C3A4318B6EC42007F48DA /* AppDelegate.m */,
+				028C3A6218B6EE0F007F48DA /* MainViewController.h */,
+				028C3A6318B6EE0F007F48DA /* MainViewController.m */,
 				028C3A4518B6EC42007F48DA /* Images.xcassets */,
 				028C3A3A18B6EC42007F48DA /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				028C3A4418B6EC42007F48DA /* AppDelegate.m in Sources */,
+				028C3A6418B6EE0F007F48DA /* MainViewController.m in Sources */,
 				028C3A4018B6EC42007F48DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +447,7 @@
 				028C3A5E18B6EC42007F48DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		028C3A5F18B6EC42007F48DA /* Build configuration list for PBXNativeTarget "gitDemo1Tests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +456,7 @@
 				028C3A6118B6EC42007F48DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
